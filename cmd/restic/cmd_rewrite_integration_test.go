@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
+	"github.com/restic/restic/pkg/restic"
+	rtest "github.com/restic/restic/pkg/test"
 )
 
 func testRunRewriteExclude(t testing.TB, gopts GlobalOptions, excludes []string, forget bool) {

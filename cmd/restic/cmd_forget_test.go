@@ -3,8 +3,8 @@ package main
 import (
 	"testing"
 
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
+	"github.com/restic/restic/pkg/restic"
+	rtest "github.com/restic/restic/pkg/test"
 )
 
 func TestForgetPolicyValues(t *testing.T) {

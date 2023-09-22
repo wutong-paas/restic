@@ -8,13 +8,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/index"
-	"github.com/restic/restic/internal/pack"
-	"github.com/restic/restic/internal/repository"
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/ui"
+	"github.com/restic/restic/pkg/debug"
+	"github.com/restic/restic/pkg/errors"
+	"github.com/restic/restic/pkg/index"
+	"github.com/restic/restic/pkg/pack"
+	"github.com/restic/restic/pkg/repository"
+	"github.com/restic/restic/pkg/restic"
+	"github.com/restic/restic/pkg/ui"
 
 	"github.com/spf13/cobra"
 )

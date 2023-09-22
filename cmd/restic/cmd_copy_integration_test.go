@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	rtest "github.com/restic/restic/internal/test"
+	rtest "github.com/restic/restic/pkg/test"
 )
 
 func testRunCopy(t testing.TB, srcGopts GlobalOptions, dstGopts GlobalOptions) {

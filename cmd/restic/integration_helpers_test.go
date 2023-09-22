@@ -12,13 +12,13 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/restic/restic/internal/backend/retry"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/options"
-	"github.com/restic/restic/internal/repository"
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
-	"github.com/restic/restic/internal/ui/termstatus"
+	"github.com/restic/restic/pkg/backend/retry"
+	"github.com/restic/restic/pkg/errors"
+	"github.com/restic/restic/pkg/options"
+	"github.com/restic/restic/pkg/repository"
+	"github.com/restic/restic/pkg/restic"
+	rtest "github.com/restic/restic/pkg/test"
+	"github.com/restic/restic/pkg/ui/termstatus"
 )
 
 type dirEntry struct {

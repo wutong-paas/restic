@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/internal/filter"
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
-	"github.com/restic/restic/internal/ui/termstatus"
+	"github.com/restic/restic/pkg/filter"
+	"github.com/restic/restic/pkg/restic"
+	rtest "github.com/restic/restic/pkg/test"
+	"github.com/restic/restic/pkg/ui/termstatus"
 )
 
 func testRunRestore(t testing.TB, opts GlobalOptions, dir string, snapshotID restic.ID) {

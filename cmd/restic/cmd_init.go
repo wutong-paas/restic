@@ -6,10 +6,10 @@ import (
 	"strconv"
 
 	"github.com/restic/chunker"
-	"github.com/restic/restic/internal/backend/location"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/repository"
-	"github.com/restic/restic/internal/restic"
+	"github.com/restic/restic/pkg/backend/location"
+	"github.com/restic/restic/pkg/errors"
+	"github.com/restic/restic/pkg/repository"
+	"github.com/restic/restic/pkg/restic"
 
 	"github.com/spf13/cobra"
 )

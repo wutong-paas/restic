@@ -6,8 +6,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
+	"github.com/restic/restic/pkg/restic"
+	rtest "github.com/restic/restic/pkg/test"
 )
 
 func testRunList(t testing.TB, tpe string, opts GlobalOptions) restic.IDs {

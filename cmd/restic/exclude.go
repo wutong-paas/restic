@@ -10,13 +10,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/filter"
-	"github.com/restic/restic/internal/fs"
-	"github.com/restic/restic/internal/repository"
-	"github.com/restic/restic/internal/textfile"
-	"github.com/restic/restic/internal/ui"
+	"github.com/restic/restic/pkg/debug"
+	"github.com/restic/restic/pkg/errors"
+	"github.com/restic/restic/pkg/filter"
+	"github.com/restic/restic/pkg/fs"
+	"github.com/restic/restic/pkg/repository"
+	"github.com/restic/restic/pkg/textfile"
+	"github.com/restic/restic/pkg/ui"
 	"github.com/spf13/pflag"
 )
 

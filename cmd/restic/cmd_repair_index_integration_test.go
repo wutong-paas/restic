@@ -8,10 +8,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/index"
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
+	"github.com/restic/restic/pkg/errors"
+	"github.com/restic/restic/pkg/index"
+	"github.com/restic/restic/pkg/restic"
+	rtest "github.com/restic/restic/pkg/test"
 )
 
 func testRunRebuildIndex(t testing.TB, gopts GlobalOptions) {
