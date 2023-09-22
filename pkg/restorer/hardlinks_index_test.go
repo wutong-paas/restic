@@ -3,8 +3,8 @@ package restorer_test
 import (
 	"testing"
 
-	"github.com/restic/restic/pkg/restorer"
-	rtest "github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/restorer"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 )
 
 // TestHardLinks contains various tests for HardlinkIndex.

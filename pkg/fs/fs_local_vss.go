@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/restic/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/errors"
 )
 
 // ErrorHandler is used to report errors via callback

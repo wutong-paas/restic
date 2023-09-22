@@ -5,8 +5,8 @@ package fuse
 
 import (
 	"github.com/anacrolix/fuse"
-	"github.com/restic/restic/pkg/debug"
-	"github.com/restic/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/restic"
 )
 
 func nodeToXattrList(node *restic.Node, req *fuse.ListxattrRequest, resp *fuse.ListxattrResponse) {

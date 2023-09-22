@@ -9,12 +9,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/restic/restic/pkg/backend"
-	"github.com/restic/restic/pkg/debug"
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/filter"
-	"github.com/restic/restic/pkg/restic"
-	"github.com/restic/restic/pkg/walker"
+	"github.com/wutong-paas/restic/pkg/backend"
+	"github.com/wutong-paas/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/filter"
+	"github.com/wutong-paas/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/walker"
 )
 
 var cmdFind = &cobra.Command{

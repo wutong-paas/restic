@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	rtest "github.com/restic/restic/pkg/test"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 )
 
 func testRunLs(t testing.TB, gopts GlobalOptions, snapshotID string) []string {

@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/test"
 )
 
 func TestRedactHeader(t *testing.T) {

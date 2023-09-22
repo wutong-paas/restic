@@ -4,7 +4,7 @@ package location
 import (
 	"strings"
 
-	"github.com/restic/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/errors"
 )
 
 // Location specifies the location of a repository, including the method of

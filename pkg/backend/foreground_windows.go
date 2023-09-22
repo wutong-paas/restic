@@ -4,7 +4,7 @@ import (
 	"os/exec"
 	"syscall"
 
-	"github.com/restic/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/errors"
 	"golang.org/x/sys/windows"
 )
 

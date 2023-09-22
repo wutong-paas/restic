@@ -7,11 +7,11 @@ import (
 	"runtime"
 
 	"github.com/pkg/errors"
-	"github.com/restic/restic/pkg/backend"
-	"github.com/restic/restic/pkg/crypto"
-	"github.com/restic/restic/pkg/debug"
-	"github.com/restic/restic/pkg/fs"
-	"github.com/restic/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/backend"
+	"github.com/wutong-paas/restic/pkg/crypto"
+	"github.com/wutong-paas/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/fs"
+	"github.com/wutong-paas/restic/pkg/restic"
 )
 
 func (c *Cache) filename(h restic.Handle) string {

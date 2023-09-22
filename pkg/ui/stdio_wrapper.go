@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/restic/restic/pkg/ui/termstatus"
+	"github.com/wutong-paas/restic/pkg/ui/termstatus"
 )
 
 // StdioWrapper provides stdout and stderr integration with termstatus.

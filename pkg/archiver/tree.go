@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/restic/restic/pkg/debug"
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/fs"
+	"github.com/wutong-paas/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/fs"
 )
 
 // Tree recursively defines how a snapshot should look like when

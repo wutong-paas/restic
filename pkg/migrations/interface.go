@@ -3,7 +3,7 @@ package migrations
 import (
 	"context"
 
-	"github.com/restic/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/restic"
 )
 
 // Migration implements a data migration.

@@ -11,12 +11,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/restic/restic/pkg/debug"
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/restic"
 
-	resticfs "github.com/restic/restic/pkg/fs"
-	"github.com/restic/restic/pkg/fuse"
+	resticfs "github.com/wutong-paas/restic/pkg/fs"
+	"github.com/wutong-paas/restic/pkg/fuse"
 
 	systemFuse "github.com/anacrolix/fuse"
 	"github.com/anacrolix/fuse/fs"

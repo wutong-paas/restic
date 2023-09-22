@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/restic/restic/pkg/ui/progress"
+	"github.com/wutong-paas/restic/pkg/ui/progress"
 	"golang.org/x/sync/errgroup"
 )
 

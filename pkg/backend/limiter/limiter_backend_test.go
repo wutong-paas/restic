@@ -8,9 +8,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/restic/restic/pkg/backend/mock"
-	"github.com/restic/restic/pkg/restic"
-	rtest "github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/backend/mock"
+	"github.com/wutong-paas/restic/pkg/restic"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 )
 
 func randomBytes(t *testing.T, size int) []byte {

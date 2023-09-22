@@ -3,8 +3,8 @@ package cache
 import (
 	"testing"
 
-	"github.com/restic/restic/pkg/restic"
-	"github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/test"
 )
 
 // TestNewCache returns a cache in a temporary directory which is removed when

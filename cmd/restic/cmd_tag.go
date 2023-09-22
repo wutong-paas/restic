@@ -5,10 +5,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/restic/restic/pkg/debug"
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/repository"
-	"github.com/restic/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/repository"
+	"github.com/wutong-paas/restic/pkg/restic"
 )
 
 var cmdTag = &cobra.Command{

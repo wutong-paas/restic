@@ -8,8 +8,8 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/restic/restic/pkg/restic"
-	rtest "github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/restic"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 
 	"github.com/cenkalti/backoff/v4"
 )

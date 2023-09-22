@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	rtest "github.com/restic/restic/pkg/test"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 )
 
 func TestFilesWriterBasic(t *testing.T) {

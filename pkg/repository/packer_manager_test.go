@@ -7,9 +7,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/restic/restic/pkg/crypto"
-	"github.com/restic/restic/pkg/restic"
-	"github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/crypto"
+	"github.com/wutong-paas/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/test"
 )
 
 func randomID(rd io.Reader) restic.ID {

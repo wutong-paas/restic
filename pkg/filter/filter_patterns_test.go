@@ -3,8 +3,8 @@ package filter_test
 import (
 	"testing"
 
-	"github.com/restic/restic/pkg/filter"
-	rtest "github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/filter"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 )
 
 func TestValidPatterns(t *testing.T) {

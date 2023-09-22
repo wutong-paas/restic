@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/restic/restic/pkg/repository"
-	"github.com/restic/restic/pkg/restic"
-	"github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/repository"
+	"github.com/wutong-paas/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/test"
 )
 
 func TestFindLatestSnapshot(t *testing.T) {

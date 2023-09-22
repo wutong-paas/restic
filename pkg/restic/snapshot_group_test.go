@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/restic/restic/pkg/restic"
-	"github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/test"
 )
 
 func TestGroupByOptions(t *testing.T) {

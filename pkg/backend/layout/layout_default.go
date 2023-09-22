@@ -3,7 +3,7 @@ package layout
 import (
 	"encoding/hex"
 
-	"github.com/restic/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/restic"
 )
 
 // DefaultLayout implements the default layout for local and sftp backends, as

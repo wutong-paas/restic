@@ -12,13 +12,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/pkg/archiver"
-	"github.com/restic/restic/pkg/checker"
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/hashing"
-	"github.com/restic/restic/pkg/repository"
-	"github.com/restic/restic/pkg/restic"
-	"github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/archiver"
+	"github.com/wutong-paas/restic/pkg/checker"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/hashing"
+	"github.com/wutong-paas/restic/pkg/repository"
+	"github.com/wutong-paas/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/test"
 	"golang.org/x/sync/errgroup"
 )
 

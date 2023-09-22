@@ -5,8 +5,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/restic/restic/pkg/debug"
-	"github.com/restic/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/restic"
 )
 
 // Backend wraps a restic.Backend and adds a cache.

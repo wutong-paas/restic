@@ -8,12 +8,12 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/restic/restic/pkg/backend"
-	"github.com/restic/restic/pkg/backend/mem"
-	"github.com/restic/restic/pkg/backend/mock"
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/restic"
-	rtest "github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/backend"
+	"github.com/wutong-paas/restic/pkg/backend/mem"
+	"github.com/wutong-paas/restic/pkg/backend/mock"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/restic"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 )
 
 const KiB = 1 << 10

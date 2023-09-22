@@ -8,11 +8,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/restic/restic/pkg/crypto"
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/repository"
-	"github.com/restic/restic/pkg/restic"
-	rtest "github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/crypto"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/repository"
+	"github.com/wutong-paas/restic/pkg/restic"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 )
 
 type TestBlob struct {

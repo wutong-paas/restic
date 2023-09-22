@@ -6,7 +6,7 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	rtest "github.com/restic/restic/pkg/test"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 )
 
 func TestIsMinTTY(t *testing.T) {

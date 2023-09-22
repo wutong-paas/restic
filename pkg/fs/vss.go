@@ -4,7 +4,7 @@
 package fs
 
 import (
-	"github.com/restic/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/errors"
 )
 
 // MountPoint is a dummy for non-windows platforms to let client code compile.

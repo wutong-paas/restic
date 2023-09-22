@@ -13,12 +13,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/restic/restic/pkg/backend"
-	"github.com/restic/restic/pkg/backend/layout"
-	"github.com/restic/restic/pkg/backend/location"
-	"github.com/restic/restic/pkg/debug"
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/backend"
+	"github.com/wutong-paas/restic/pkg/backend/layout"
+	"github.com/wutong-paas/restic/pkg/backend/location"
+	"github.com/wutong-paas/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/restic"
 
 	"github.com/ncw/swift/v2"
 )

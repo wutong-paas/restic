@@ -17,12 +17,12 @@ import (
 	"time"
 
 	"github.com/cenkalti/backoff/v4"
-	"github.com/restic/restic/pkg/backend"
-	"github.com/restic/restic/pkg/backend/limiter"
-	"github.com/restic/restic/pkg/backend/location"
-	"github.com/restic/restic/pkg/backend/rest"
-	"github.com/restic/restic/pkg/debug"
-	"github.com/restic/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/backend"
+	"github.com/wutong-paas/restic/pkg/backend/limiter"
+	"github.com/wutong-paas/restic/pkg/backend/location"
+	"github.com/wutong-paas/restic/pkg/backend/rest"
+	"github.com/wutong-paas/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/errors"
 	"golang.org/x/net/http2"
 )
 

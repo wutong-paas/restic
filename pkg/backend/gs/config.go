@@ -5,9 +5,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/options"
-	"github.com/restic/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/options"
+	"github.com/wutong-paas/restic/pkg/restic"
 )
 
 // Config contains all configuration necessary to connect to a Google Cloud Storage

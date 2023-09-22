@@ -6,8 +6,8 @@ import (
 	"sync"
 
 	"github.com/cenkalti/backoff/v4"
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/restic"
 )
 
 // make sure that connectionLimitedBackend implements restic.Backend

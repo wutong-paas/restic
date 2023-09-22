@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/restic/restic/pkg/archiver"
-	"github.com/restic/restic/pkg/restic"
-	"github.com/restic/restic/pkg/ui/progress"
+	"github.com/wutong-paas/restic/pkg/archiver"
+	"github.com/wutong-paas/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/ui/progress"
 )
 
 // A ProgressPrinter can print various progress messages.

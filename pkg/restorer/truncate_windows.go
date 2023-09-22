@@ -3,7 +3,7 @@ package restorer
 import (
 	"os"
 
-	"github.com/restic/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/debug"
 	"golang.org/x/sys/windows"
 )
 

@@ -16,12 +16,12 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/klauspost/compress/zstd"
-	"github.com/restic/restic/pkg/backend/local"
-	"github.com/restic/restic/pkg/crypto"
-	"github.com/restic/restic/pkg/index"
-	"github.com/restic/restic/pkg/repository"
-	"github.com/restic/restic/pkg/restic"
-	rtest "github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/backend/local"
+	"github.com/wutong-paas/restic/pkg/crypto"
+	"github.com/wutong-paas/restic/pkg/index"
+	"github.com/wutong-paas/restic/pkg/repository"
+	"github.com/wutong-paas/restic/pkg/restic"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 	"golang.org/x/sync/errgroup"
 )
 

@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 
-	"github.com/restic/restic/pkg/backend"
-	"github.com/restic/restic/pkg/restic"
 	"github.com/spf13/pflag"
+	"github.com/wutong-paas/restic/pkg/backend"
+	"github.com/wutong-paas/restic/pkg/restic"
 )
 
 // initMultiSnapshotFilter is used for commands that work on multiple snapshots

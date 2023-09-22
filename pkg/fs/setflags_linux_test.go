@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	rtest "github.com/restic/restic/pkg/test"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 
 	"golang.org/x/sys/unix"
 )

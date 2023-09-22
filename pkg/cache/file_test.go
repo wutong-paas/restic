@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/fs"
-	"github.com/restic/restic/pkg/restic"
-	"github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/fs"
+	"github.com/wutong-paas/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/test"
 
 	"golang.org/x/sync/errgroup"
 )

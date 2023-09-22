@@ -7,12 +7,12 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/restic/restic/pkg/backend"
-	"github.com/restic/restic/pkg/debug"
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/restic"
-	"github.com/restic/restic/pkg/ui"
 	"github.com/spf13/cobra"
+	"github.com/wutong-paas/restic/pkg/backend"
+	"github.com/wutong-paas/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/ui"
 )
 
 var cmdDiff = &cobra.Command{

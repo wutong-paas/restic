@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/restic/restic/pkg/debug"
-	"github.com/restic/restic/pkg/fs"
+	"github.com/wutong-paas/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/fs"
 )
 
 // Scanner  traverses the targets and calls the function Result with cumulated

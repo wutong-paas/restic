@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/pkg/backend/gs"
-	"github.com/restic/restic/pkg/backend/test"
-	rtest "github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/backend/gs"
+	"github.com/wutong-paas/restic/pkg/backend/test"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 )
 
 func newGSTestSuite() *test.Suite[gs.Config] {

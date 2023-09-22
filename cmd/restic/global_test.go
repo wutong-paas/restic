@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	rtest "github.com/restic/restic/pkg/test"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 )
 
 func Test_PrintFunctionsRespectsGlobalStdout(t *testing.T) {

@@ -6,9 +6,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/restic/restic/pkg/crypto"
-	"github.com/restic/restic/pkg/restic"
-	rtest "github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/crypto"
+	"github.com/wutong-paas/restic/pkg/restic"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 )
 
 func TestParseHeaderEntry(t *testing.T) {

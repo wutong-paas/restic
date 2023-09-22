@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/restic/restic/pkg/backend/limiter"
-	"github.com/restic/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/backend/limiter"
+	"github.com/wutong-paas/restic/pkg/restic"
 )
 
 type Registry struct {

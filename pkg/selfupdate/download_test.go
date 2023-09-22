@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	rtest "github.com/restic/restic/pkg/test"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 )
 
 func TestExtractToFileZip(t *testing.T) {

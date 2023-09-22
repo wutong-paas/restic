@@ -4,8 +4,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/options"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/options"
 )
 
 // Config contains all configuration necessary to start rclone.

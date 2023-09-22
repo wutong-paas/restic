@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/pkg/backend/rest"
-	"github.com/restic/restic/pkg/backend/test"
-	rtest "github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/backend/rest"
+	"github.com/wutong-paas/restic/pkg/backend/test"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 )
 
 func runRESTServer(ctx context.Context, t testing.TB, dir string) (*url.URL, func()) {

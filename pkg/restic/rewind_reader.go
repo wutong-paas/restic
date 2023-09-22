@@ -5,7 +5,7 @@ import (
 	"hash"
 	"io"
 
-	"github.com/restic/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/errors"
 )
 
 // RewindReader allows resetting the Reader to the beginning of the data.

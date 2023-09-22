@@ -3,7 +3,7 @@ package local
 import (
 	"testing"
 
-	"github.com/restic/restic/pkg/backend/test"
+	"github.com/wutong-paas/restic/pkg/backend/test"
 )
 
 var configTests = []test.ConfigTestData[Config]{

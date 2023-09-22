@@ -9,12 +9,12 @@ import (
 	"io"
 	"testing"
 
-	"github.com/restic/restic/pkg/backend"
-	"github.com/restic/restic/pkg/backend/mem"
-	"github.com/restic/restic/pkg/crypto"
-	"github.com/restic/restic/pkg/pack"
-	"github.com/restic/restic/pkg/restic"
-	rtest "github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/backend"
+	"github.com/wutong-paas/restic/pkg/backend/mem"
+	"github.com/wutong-paas/restic/pkg/crypto"
+	"github.com/wutong-paas/restic/pkg/pack"
+	"github.com/wutong-paas/restic/pkg/restic"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 )
 
 var testLens = []int{23, 31650, 25860, 10928, 13769, 19862, 5211, 127, 13690, 30231}

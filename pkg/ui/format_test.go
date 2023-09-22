@@ -3,7 +3,7 @@ package ui
 import (
 	"testing"
 
-	"github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/test"
 )
 
 func TestFormatBytes(t *testing.T) {

@@ -4,9 +4,9 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/restic/restic/pkg/backend/rclone"
-	"github.com/restic/restic/pkg/backend/test"
-	rtest "github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/backend/rclone"
+	"github.com/wutong-paas/restic/pkg/backend/test"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 )
 
 func newTestSuite(t testing.TB) *test.Suite[rclone.Config] {

@@ -8,13 +8,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/restic/restic/pkg/debug"
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/index"
-	"github.com/restic/restic/pkg/pack"
-	"github.com/restic/restic/pkg/repository"
-	"github.com/restic/restic/pkg/restic"
-	"github.com/restic/restic/pkg/ui"
+	"github.com/wutong-paas/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/index"
+	"github.com/wutong-paas/restic/pkg/pack"
+	"github.com/wutong-paas/restic/pkg/repository"
+	"github.com/wutong-paas/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/ui"
 
 	"github.com/spf13/cobra"
 )

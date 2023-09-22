@@ -13,12 +13,12 @@ import (
 	"time"
 
 	"github.com/minio/sha256-simd"
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/restic"
 
-	"github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/test"
 
-	"github.com/restic/restic/pkg/backend"
+	"github.com/wutong-paas/restic/pkg/backend"
 )
 
 func seedRand(t testing.TB) {

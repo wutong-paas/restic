@@ -1,4 +1,4 @@
-module github.com/restic/restic
+module github.com/wutong-paas/restic
 
 require (
 	cloud.google.com/go/storage v1.31.0

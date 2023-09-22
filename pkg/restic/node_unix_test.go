@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	rtest "github.com/restic/restic/pkg/test"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 )
 
 func stat(t testing.TB, filename string) (fi os.FileInfo, ok bool) {

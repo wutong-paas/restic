@@ -8,9 +8,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/restic/restic/pkg/restic"
-	"github.com/restic/restic/pkg/ui/table"
 	"github.com/spf13/cobra"
+	"github.com/wutong-paas/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/ui/table"
 )
 
 var cmdSnapshots = &cobra.Command{

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/restic/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/errors"
 )
 
 // Duration is similar to time.Duration, except it only supports larger ranges

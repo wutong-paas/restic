@@ -3,8 +3,8 @@ package local
 import (
 	"strings"
 
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/options"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/options"
 )
 
 // Config holds all information needed to open a local repository.

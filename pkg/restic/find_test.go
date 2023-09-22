@@ -12,11 +12,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/repository"
-	"github.com/restic/restic/pkg/restic"
-	"github.com/restic/restic/pkg/test"
-	"github.com/restic/restic/pkg/ui/progress"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/repository"
+	"github.com/wutong-paas/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/ui/progress"
 )
 
 func loadIDSet(t testing.TB, filename string) restic.BlobSet {

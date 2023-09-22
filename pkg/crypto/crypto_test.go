@@ -6,8 +6,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/restic/restic/pkg/crypto"
-	rtest "github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/crypto"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 
 	"github.com/restic/chunker"
 )

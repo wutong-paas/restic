@@ -8,12 +8,12 @@ import (
 	"os/user"
 	"time"
 
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/restic"
 
-	"github.com/restic/restic/pkg/backend"
-	"github.com/restic/restic/pkg/crypto"
-	"github.com/restic/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/backend"
+	"github.com/wutong-paas/restic/pkg/crypto"
+	"github.com/wutong-paas/restic/pkg/debug"
 )
 
 var (

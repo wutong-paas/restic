@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/restic/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/errors"
 
 	mrand "math/rand"
 )

@@ -3,12 +3,12 @@ package main
 import (
 	"context"
 
-	"github.com/restic/restic/pkg/index"
-	"github.com/restic/restic/pkg/pack"
-	"github.com/restic/restic/pkg/repository"
-	"github.com/restic/restic/pkg/restic"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
+	"github.com/wutong-paas/restic/pkg/index"
+	"github.com/wutong-paas/restic/pkg/pack"
+	"github.com/wutong-paas/restic/pkg/repository"
+	"github.com/wutong-paas/restic/pkg/restic"
 )
 
 var cmdRepairIndex = &cobra.Command{

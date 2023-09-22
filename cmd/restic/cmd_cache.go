@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/restic/restic/pkg/cache"
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/fs"
-	"github.com/restic/restic/pkg/ui"
-	"github.com/restic/restic/pkg/ui/table"
 	"github.com/spf13/cobra"
+	"github.com/wutong-paas/restic/pkg/cache"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/fs"
+	"github.com/wutong-paas/restic/pkg/ui"
+	"github.com/wutong-paas/restic/pkg/ui/table"
 )
 
 var cmdCache = &cobra.Command{

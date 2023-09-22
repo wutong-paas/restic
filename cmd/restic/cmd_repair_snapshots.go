@@ -3,10 +3,10 @@ package main
 import (
 	"context"
 
-	"github.com/restic/restic/pkg/backend"
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/restic"
-	"github.com/restic/restic/pkg/walker"
+	"github.com/wutong-paas/restic/pkg/backend"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/walker"
 
 	"github.com/spf13/cobra"
 )

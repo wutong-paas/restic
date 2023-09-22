@@ -1,6 +1,6 @@
 package layout
 
-import "github.com/restic/restic/pkg/restic"
+import "github.com/wutong-paas/restic/pkg/restic"
 
 // RESTLayout implements the default layout for the REST protocol.
 type RESTLayout struct {

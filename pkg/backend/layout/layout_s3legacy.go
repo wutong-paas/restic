@@ -1,6 +1,6 @@
 package layout
 
-import "github.com/restic/restic/pkg/restic"
+import "github.com/wutong-paas/restic/pkg/restic"
 
 // S3LegacyLayout implements the old layout used for s3 cloud storage backends, as
 // described in the Design document.

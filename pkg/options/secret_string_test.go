@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/restic/restic/pkg/options"
-	"github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/options"
+	"github.com/wutong-paas/restic/pkg/test"
 )
 
 type secretTest struct {

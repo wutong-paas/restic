@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/errors"
 
-	"github.com/restic/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/debug"
 )
 
 // Lock represents a process locking the repository for an operation.

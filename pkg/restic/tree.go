@@ -9,9 +9,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/restic/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/errors"
 
-	"github.com/restic/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/debug"
 )
 
 // Tree is an ordered list of nodes.

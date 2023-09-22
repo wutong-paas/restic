@@ -9,13 +9,13 @@ import (
 	"runtime"
 	godebug "runtime/debug"
 
-	"github.com/restic/restic/pkg/debug"
-	"github.com/restic/restic/pkg/options"
-	"github.com/restic/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/options"
+	"github.com/wutong-paas/restic/pkg/restic"
 
 	"github.com/spf13/cobra"
 
-	"github.com/restic/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/errors"
 )
 
 // cmdRoot is the base command when no other command has been specified.

@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/pkg/archiver"
-	"github.com/restic/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/archiver"
+	"github.com/wutong-paas/restic/pkg/restic"
 )
 
 type mockPrinter struct {

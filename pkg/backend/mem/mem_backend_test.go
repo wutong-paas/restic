@@ -3,8 +3,8 @@ package mem_test
 import (
 	"testing"
 
-	"github.com/restic/restic/pkg/backend/mem"
-	"github.com/restic/restic/pkg/backend/test"
+	"github.com/wutong-paas/restic/pkg/backend/mem"
+	"github.com/wutong-paas/restic/pkg/backend/test"
 )
 
 func newTestSuite() *test.Suite[struct{}] {

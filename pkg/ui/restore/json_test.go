@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/test"
 )
 
 func TestJSONPrintUpdate(t *testing.T) {

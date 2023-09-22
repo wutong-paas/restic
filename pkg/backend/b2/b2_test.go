@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/pkg/backend/b2"
-	"github.com/restic/restic/pkg/backend/test"
+	"github.com/wutong-paas/restic/pkg/backend/b2"
+	"github.com/wutong-paas/restic/pkg/backend/test"
 
-	rtest "github.com/restic/restic/pkg/test"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 )
 
 func newB2TestSuite() *test.Suite[b2.Config] {

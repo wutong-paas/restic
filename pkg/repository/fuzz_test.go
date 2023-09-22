@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/restic/restic/pkg/backend/mem"
-	"github.com/restic/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/backend/mem"
+	"github.com/wutong-paas/restic/pkg/restic"
 	"golang.org/x/sync/errgroup"
 )
 

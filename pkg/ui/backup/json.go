@@ -4,10 +4,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/restic/restic/pkg/archiver"
-	"github.com/restic/restic/pkg/restic"
-	"github.com/restic/restic/pkg/ui"
-	"github.com/restic/restic/pkg/ui/termstatus"
+	"github.com/wutong-paas/restic/pkg/archiver"
+	"github.com/wutong-paas/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/ui"
+	"github.com/wutong-paas/restic/pkg/ui/termstatus"
 )
 
 // JSONProgress reports progress for the `backup` command in JSON.

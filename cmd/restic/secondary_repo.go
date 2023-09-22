@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/restic/restic/pkg/errors"
 	"github.com/spf13/pflag"
+	"github.com/wutong-paas/restic/pkg/errors"
 )
 
 type secondaryRepoOptions struct {

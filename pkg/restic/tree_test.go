@@ -9,10 +9,10 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/restic/restic/pkg/archiver"
-	"github.com/restic/restic/pkg/repository"
-	"github.com/restic/restic/pkg/restic"
-	rtest "github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/archiver"
+	"github.com/wutong-paas/restic/pkg/repository"
+	"github.com/wutong-paas/restic/pkg/restic"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 	"golang.org/x/sync/errgroup"
 )
 

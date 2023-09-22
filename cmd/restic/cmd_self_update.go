@@ -7,9 +7,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/selfupdate"
 	"github.com/spf13/cobra"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/selfupdate"
 )
 
 var cmdSelfUpdate = &cobra.Command{

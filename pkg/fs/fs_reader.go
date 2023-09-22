@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/restic/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/errors"
 )
 
 // Reader is a file system which provides a directory with a single file. When

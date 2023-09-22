@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/restic/restic/pkg/fs"
+	"github.com/wutong-paas/restic/pkg/fs"
 )
 
 var opts struct {

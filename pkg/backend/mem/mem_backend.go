@@ -10,11 +10,11 @@ import (
 	"sync"
 
 	"github.com/cespare/xxhash/v2"
-	"github.com/restic/restic/pkg/backend"
-	"github.com/restic/restic/pkg/backend/location"
-	"github.com/restic/restic/pkg/debug"
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/backend"
+	"github.com/wutong-paas/restic/pkg/backend/location"
+	"github.com/wutong-paas/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/restic"
 )
 
 type memMap map[restic.Handle][]byte

@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/pkg/test"
-	"github.com/restic/restic/pkg/ui/progress"
+	"github.com/wutong-paas/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/ui/progress"
 )
 
 func TestUpdater(t *testing.T) {

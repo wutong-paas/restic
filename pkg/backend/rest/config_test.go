@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/restic/restic/pkg/backend/test"
+	"github.com/wutong-paas/restic/pkg/backend/test"
 )
 
 func parseURL(s string) *url.URL {

@@ -6,12 +6,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/restic/restic/pkg/backend/local"
-	"github.com/restic/restic/pkg/backend/mem"
-	"github.com/restic/restic/pkg/backend/retry"
-	"github.com/restic/restic/pkg/crypto"
-	"github.com/restic/restic/pkg/restic"
-	"github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/backend/local"
+	"github.com/wutong-paas/restic/pkg/backend/mem"
+	"github.com/wutong-paas/restic/pkg/backend/retry"
+	"github.com/wutong-paas/restic/pkg/crypto"
+	"github.com/wutong-paas/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/test"
 
 	"github.com/restic/chunker"
 )

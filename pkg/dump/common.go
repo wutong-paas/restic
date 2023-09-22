@@ -5,10 +5,10 @@ import (
 	"io"
 	"path"
 
-	"github.com/restic/restic/pkg/bloblru"
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/restic"
-	"github.com/restic/restic/pkg/walker"
+	"github.com/wutong-paas/restic/pkg/bloblru"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/walker"
 )
 
 // A Dumper writes trees and files from a repository to a Writer

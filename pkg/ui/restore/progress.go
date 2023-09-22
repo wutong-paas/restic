@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/restic/restic/pkg/ui/progress"
+	"github.com/wutong-paas/restic/pkg/ui/progress"
 )
 
 type Progress struct {

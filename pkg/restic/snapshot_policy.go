@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/restic/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/debug"
 )
 
 // ExpirePolicy configures which snapshots should be automatically removed.

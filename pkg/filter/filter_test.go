@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/restic/restic/pkg/filter"
+	"github.com/wutong-paas/restic/pkg/filter"
 )
 
 var matchTests = []struct {

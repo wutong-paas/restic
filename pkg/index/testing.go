@@ -3,8 +3,8 @@ package index
 import (
 	"testing"
 
-	"github.com/restic/restic/pkg/restic"
-	"github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/test"
 )
 
 func TestMergeIndex(t testing.TB, mi *MasterIndex) ([]*Index, int) {

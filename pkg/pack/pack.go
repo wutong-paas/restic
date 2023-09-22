@@ -7,11 +7,11 @@ import (
 	"io"
 	"sync"
 
-	"github.com/restic/restic/pkg/debug"
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/restic"
 
-	"github.com/restic/restic/pkg/crypto"
+	"github.com/wutong-paas/restic/pkg/crypto"
 )
 
 // Packer is used to create a new Pack.

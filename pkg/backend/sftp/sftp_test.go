@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/restic/restic/pkg/backend/sftp"
-	"github.com/restic/restic/pkg/backend/test"
-	"github.com/restic/restic/pkg/errors"
-	rtest "github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/backend/sftp"
+	"github.com/wutong-paas/restic/pkg/backend/test"
+	"github.com/wutong-paas/restic/pkg/errors"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 )
 
 func findSFTPServerBinary() string {

@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/pkg/fs"
+	"github.com/wutong-paas/restic/pkg/fs"
 )
 
 func TestWriteZip(t *testing.T) {

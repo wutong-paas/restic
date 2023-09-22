@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/pkg/repository"
-	"github.com/restic/restic/pkg/restic"
-	rtest "github.com/restic/restic/pkg/test"
-	restoreui "github.com/restic/restic/pkg/ui/restore"
+	"github.com/wutong-paas/restic/pkg/repository"
+	"github.com/wutong-paas/restic/pkg/restic"
+	rtest "github.com/wutong-paas/restic/pkg/test"
+	restoreui "github.com/wutong-paas/restic/pkg/ui/restore"
 )
 
 func TestRestorerRestoreEmptyHardlinkedFileds(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"encoding/binary"
 
 	"github.com/cespare/xxhash/v2"
-	"github.com/restic/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/restic"
 )
 
 const prime = 11400714785074694791 // prime1 from xxhash.

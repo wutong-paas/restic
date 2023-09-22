@@ -12,12 +12,12 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/restic/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/errors"
 
 	"bytes"
 
-	"github.com/restic/restic/pkg/debug"
-	"github.com/restic/restic/pkg/fs"
+	"github.com/wutong-paas/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/fs"
 )
 
 // ExtendedAttribute is a tuple storing the xattr name and value.

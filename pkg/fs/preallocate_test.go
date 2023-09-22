@@ -7,7 +7,7 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/test"
 )
 
 func TestPreallocate(t *testing.T) {

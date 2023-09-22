@@ -3,9 +3,9 @@ package main
 import (
 	"time"
 
-	"github.com/restic/restic/pkg/errors"
 	"github.com/spf13/cobra"
 	"github.com/spf13/cobra/doc"
+	"github.com/wutong-paas/restic/pkg/errors"
 )
 
 var cmdGenerate = &cobra.Command{

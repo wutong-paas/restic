@@ -13,8 +13,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/restic/restic/pkg/debug"
-	"github.com/restic/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/restic"
 
 	"github.com/minio/sha256-simd"
 )

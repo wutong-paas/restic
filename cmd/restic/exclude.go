@@ -10,14 +10,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/restic/restic/pkg/debug"
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/filter"
-	"github.com/restic/restic/pkg/fs"
-	"github.com/restic/restic/pkg/repository"
-	"github.com/restic/restic/pkg/textfile"
-	"github.com/restic/restic/pkg/ui"
 	"github.com/spf13/pflag"
+	"github.com/wutong-paas/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/filter"
+	"github.com/wutong-paas/restic/pkg/fs"
+	"github.com/wutong-paas/restic/pkg/repository"
+	"github.com/wutong-paas/restic/pkg/textfile"
+	"github.com/wutong-paas/restic/pkg/ui"
 )
 
 type rejectionCache struct {

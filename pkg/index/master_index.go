@@ -7,9 +7,9 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/restic/restic/pkg/debug"
-	"github.com/restic/restic/pkg/restic"
-	"github.com/restic/restic/pkg/ui/progress"
+	"github.com/wutong-paas/restic/pkg/debug"
+	"github.com/wutong-paas/restic/pkg/restic"
+	"github.com/wutong-paas/restic/pkg/ui/progress"
 	"golang.org/x/sync/errgroup"
 )
 

@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 
-	"github.com/restic/restic/pkg/restic"
 	"github.com/spf13/cobra"
+	"github.com/wutong-paas/restic/pkg/restic"
 )
 
 var unlockCmd = &cobra.Command{

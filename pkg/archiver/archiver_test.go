@@ -15,13 +15,13 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/restic/restic/pkg/backend/mem"
-	"github.com/restic/restic/pkg/checker"
-	"github.com/restic/restic/pkg/errors"
-	"github.com/restic/restic/pkg/fs"
-	"github.com/restic/restic/pkg/repository"
-	"github.com/restic/restic/pkg/restic"
-	restictest "github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/backend/mem"
+	"github.com/wutong-paas/restic/pkg/checker"
+	"github.com/wutong-paas/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/fs"
+	"github.com/wutong-paas/restic/pkg/repository"
+	"github.com/wutong-paas/restic/pkg/restic"
+	restictest "github.com/wutong-paas/restic/pkg/test"
 	"golang.org/x/sync/errgroup"
 )
 

@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/pkg/restic"
-	rtest "github.com/restic/restic/pkg/test"
+	"github.com/wutong-paas/restic/pkg/restic"
+	rtest "github.com/wutong-paas/restic/pkg/test"
 )
 
 func TestIndexMapBasic(t *testing.T) {

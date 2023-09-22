@@ -3,7 +3,7 @@ package restic
 import (
 	"syscall"
 
-	"github.com/restic/restic/pkg/errors"
+	"github.com/wutong-paas/restic/pkg/errors"
 )
 
 // mknod is not supported on Windows.
